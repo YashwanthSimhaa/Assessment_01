@@ -28,6 +28,7 @@ def create_response_json(unique_id, data_dict, file_location):
         print(f"Data for unique ID {unique_id} has been written to {file_location}")
     except Exception as e:
         print(f"An error occurred while writing to {file_location}: {e}")
+    print("hi")
     return existing_data
 
 
